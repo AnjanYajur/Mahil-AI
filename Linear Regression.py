@@ -41,6 +41,11 @@ plt.xlabel('Hours')
 plt.ylabel('Score')
 plt.show()
 
+#Predicting for 9 and 12 hours
+a=9
+regressor.predict(np.array([[a]]))
+b=12
+regressor.predict(np.array([[b]]))
 
 # In[ ]:
 
